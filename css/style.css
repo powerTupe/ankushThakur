@@ -1,0 +1,307 @@
+@import url('./font.css');
+@import url('./variable/variable.css');
+
+/* >>>>>>>> Navigation <<<<<<<<< */
+header{
+    box-shadow: 4px 4px 40px gray;
+}
+header nav{
+    width: 90%;
+    margin: auto;
+    font-family: var(--roboto);
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #15abe6;
+}
+header nav .navbar-nav .nav-item:hover{
+    transition: all 0.01s linear;
+    margin-top: -2px;
+    border-bottom: 1px solid #15abe6;
+}
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+/* >>>>>>>>> End Navigation <<<<<<<<< */
+
+/* >>>>>>>>> Start Video <<<<<<<<< */
+ #enter{
+     font-size: 45px;
+     text-transform: capitalize;
+     background: linear-gradient(123deg, 55% white, green);
+    z-index: 3;
+ }
+ .main{
+    position: relative;
+    height: 75vh;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: var(--roboto);
+  }
+  .main video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .main .container #position {
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  #position h1,
+  #position h1 span{
+      font-size: 65px;
+  }
+  #position p{
+      font-size: 26px;
+      letter-spacing: 2px;
+  }
+  #position a{
+      border: 1px solid white;
+      border-radius: 1px;
+      text-transform: capitalize;
+      font-size: 18px;
+      font-weight: 500;
+      color: blanchedalmond;
+      background: transparent;
+      padding: 10px 25px;
+      text-decoration: none;
+  }
+  .main .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 1;
+  }
+/* >>>>>>>>> End Video <<<<<<<<< */
+
+/* >>>>>>>>>  intro <<<<<<<<< */
+main .row{
+  padding-top: 200px;
+    padding-bottom: 200px;
+}
+main .row .xy button a{
+    text-decoration: none;
+    color: white;
+}
+.xy{
+  margin-top: 120px;
+  font-family: var(--roboto);
+}
+/* >>>>>>>>> End intro <<<<<<<<< */
+
+/* >>>>>>>>> why we <<<<<<<<< */
+section .help{
+  font-family: var(--roboto);
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+.help .yz{
+  margin-top: 50px;
+}
+.yz h3{
+    font-weight: 700;
+}
+.yz p {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.yz p:hover{
+  border-bottom: 1px solid #15abe6 ;
+}
+.black{
+    background-color:#15abe6;
+}
+#slice{
+    margin-top: -12px;
+}
+/* >>>>>>>>> End Why We <<<<<<<<< */
+
+/* >>>>>>>>>  Project <<<<<<<<< */
+.project-area{
+  padding: 2rem 0;
+  font-family: var(--roboto);
+}
+.project-area .button-group button{
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.project-area .button-group button:hover{
+  color: #15abe6;
+  border-bottom: 1px solid #15abe6;
+}
+.project-area .button-group button + button{
+  padding-left: 3rem;
+}
+button:focus,
+button:active,
+button:hover .btn:active{
+  outline: none !important;
+  box-shadow: none;
+}
+.project-area .container .our-project:hover .title h4{
+  color: #15abe6;
+  border-bottom: 1px solid #15abe6;
+}
+.project-area .container .our-project:hover{
+box-shadow: 2px 2px 4px lightgray;
+}
+.project-area .container .row .img{
+display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.project-area .container .row .img img{
+    width: 350px;
+    height: 300px;
+    margin-top: 15px;
+}
+.project-area .container .row .element-item{
+    margin-bottom: 15px;
+}
+/* >>>>>>>>> End Project <<<<<<<<< */
+
+/* >>>>>>>>> About <<<<<<<<< */
+.about-area{
+  display: none;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.about-area .about-title p{
+  padding: 1rem 7rem;
+}
+.about-area .client{
+  box-shadow: 3px 3px 12px lightgray;
+  margin: 2rem 0rem;
+}
+.about-area .client .client-img{
+  padding: 2rem;
+}
+.about-area .client .client-img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.about-area .client .about-client{
+  padding-top: 2rem;
+}
+.about-area .client .about-client h4{
+  font: normal 500 21px/20px var(--roboto);
+}
+.about-area .client .about-client p{
+  font-size: 14px;
+}
+.about-area .owl-carousel .owl-item{
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+.color{
+  background-color: #15abe6;
+}
+/* >>>>>>>>> End About <<<<<<<<< */
+/* >>>>>>>>> End About <<<<<<<<< */
+section .footer{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+section .footer .title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+section .footer{
+    font-family: var(--roboto);
+}
+section .footer .row h3{
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+section .footer .row p{
+  color: gray;
+  margin-bottom: 15px;
+}
+section .footer .row button{
+  padding: 5px 10px;
+}
+section .footer .row input{
+  padding: 3px 10px;
+}
+/* >>>>>>>>> End About <<<<<<<<< */
+
+
+
+@media only screen and (max-width: 720px){
+  .main .container #position h1{
+      font-size: 45px;
+  }
+  header nav{
+    width: 100%;
+  }
+  #position p{
+    font-size: 18px;
+  }
+  main .container .row {
+    padding-top: 0px;
+    text-align: center;
+  }
+  main .container .row .xy{
+    margin-top: 55px;
+  }
+  section .container{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .project-area .container .button-group button{
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+  }
+  .project-area .container .row .our-project .img .size{
+    width: 100%;
+  }
+  .project-area .container .row .our-project .title{
+    text-align: center;
+  }
+  .container .owl-theme .client .about-client{
+    text-align: center;
+  }
+  .project-area .container .row .element-item{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .container .owl-theme .client .about-client .para{
+    display: flex;
+    justify-content: start;
+}
+    #position a{
+        padding :5px 15px;
+    }
+}
