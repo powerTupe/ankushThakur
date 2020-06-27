@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankush | Can help with Graphic</title>
+    <!-- ********** bootstrap css link ********** -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- ********** extended css link ********** -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    
+    <!-- ********** custom css link ********** -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+
+    <!-- ********** Owl css link ********** -->
+    <link rel="stylesheet" href="./vendor/owl carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl carousel/css/owl.theme.default.min.css">
+</head>
+<body>
+    <!-- >>>>>>>>>>> Starting Navigation <<<<<<<<<<<< -->
+    <header class="headroom fixed-top bg-light" id="mainHeader">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><b>ANKUSH</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="mr-auto"></div>
+              <div class="navbar-nav text-center">
+                <a class="nav-item nav-link active ml-3 mr-3" href="#Home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link ml-3 mr-3" href="#About">About</a>
+                <a class="nav-item nav-link ml-3 mr-3" href="#WhyWe">Why We</a>
+                <a class="nav-item nav-link ml-3 mr-3" href="#Work">Work</a>
+                <a class="nav-item nav-link ml-3 mr-3" href="#Contact" style="color: #15abe6;">contact us</a>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- >>>>>>>>>>>> Ending Navigation <<<<<<<<<<<< -->
+
+    <!-- >>>>>>>>>>>>  Main Video Graphic <<<<<<<<<<<< -->
+    <div class="main" id="Home">
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="./item/video/bannner11.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="text-center text-white" id="position">
+                    <h1 class="display-4 text-center py-4">Hi <span class="display-5" id="enter"></span></h1>
+                    <p class="text-center py-2">I'm Ankush Thakur and I design graphics </p>
+                    <a href="#" class="m-2" onclick="hey()">Click to say Hi!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- >>>>>>>>>>>> End Of The Video <<<<<<<<<<<< -->
+    
+    <!-- >>>>>>>>>>>> Banner Content <<<<<<<<<<<< -->
+    <main>
+        <div class="container" id="About">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 xy">
+                  <h2 class="text-capitalize m-4">hey you need help</h2>
+                    <p class="m-4" style="color: rgb(141, 140, 140);">I can help you with Desining Banners, Broucher, Image Manupulation, Logo And Media Posters,<br> <b>to see more of the work click on see more.</b></p> 
+                    <button class="btn btn-primary m-4"><a href="#Work">See Work</a></button>
+                  <button class="btn btn-secondary"><a href="https://drive.google.com/folderview?id=130n6qsGjY2U_sMPWdLtOeeoNqmTStFDd" target="_blank">See More</a></button>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="img m-4">
+                        <img src="./item/img/project/Interaction_Design-amico.png" alt="porfolio1" class="img img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- >>>>>>>>>>>> End Of Banner <<<<<<<<<<<< -->
+    <!-- >>>>>>>>>>>> Why We Banner <<<<<<<<<<<< -->
+    <section class="black" id="WhyWe">
+        <div class="container help">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="img m-4">
+                        <img src="./item/img/3162688.jpg" alt="porfolio2" class="img img-fluid" id="10" width="650px" height="550px">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 yz">
+                    <h3 class="p-4">Why We:</h3>
+                    <p class=" px-3 py-2" onclick="change1()">1 Interactive Design</p>
+                    <p class=" px-3 py-2" onclick="change2()">2 Problem Solving Behaviour</p>
+                    <p class=" px-3 py-2" onclick="change3()">3 Complete The Work On Time</p>
+                    <p class=" px-3 py-2" onclick="change4()">4 Giving Good Service</p>
+                    <p class=" px-3 py-2" onclick="change5()">5 Good Communication Skill</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="slice">
+            <img src="./item/img/slice.png" class="img img-fluid">
+        </div>
+    <!-- >>>>>>>>>>>> End Of Why We Banner <<<<<<<<<<<< -->
+    <!-- >>>>>>>>>>>> Project Banner <<<<<<<<<<<< -->
+    <div class="project-area" id="Work">
+        <div class="container">
+          <div class="project-title pb-5">
+            <h1 class="text-uppercase title-h1">My project</h1>
+          </div>
+          <div class="button-group">
+            <button type="button" class="active">ALL</button>
+            <button type="button" data-filter=".popular">ONGOING</button>
+            <button type="button" data-filter=".latest">RECENT</button>
+            <button type="button" data-filter=".upcoming">UPCOMING</button>
+          </div>
+  
+          <div class="row grid py-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./item/img/project/wall_e1-01.jpg" class="img img-fluid" alt=" "><!-- individual style -->
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase"> WALL-E illustration </h4>
+                  <span class="text-secondary">Took 3-4 hrs in Adobe Illustrator using a image for visual refrence to make this have worked on minor details too</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./item/img/project/spotcover11.jpg" alt="" class="img img-fluid">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Redemption Spotify Cover</h4>
+                  <span class="text-secondary">A Cover art made on Photoshop for a friend of mine relasing his cover on spotify. </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./item/img/project/SHIZPOSLOCKpngnobgblk-01.png" alt="" class="img img-fluid"> 
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Own Creation Dance Crew Logo</h4>
+                  <span class="text-secondary">Made a logo on Illustrator for a dance crew without any info so made thier iconic hand gesture as their logo and they loved it. </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./item/img/project/shizlens1-01.png" alt="" class="img img-fluid">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Camera Lens</h4>
+                  <span class="text-secondary">just an illustration using strokes and fills to brush my skills</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./item/img/project/PLANTPNG-01.png" alt=""  class="img img-fluid">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Keep Calm</h4>
+                  <span class="text-secondary">In the situation of chaos made a display plant represinting Calm in Chaos </span>
+                </div>
+              </div>
+            
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./item/img/project/CONTENT_SHETRA_onblkhind-01.png" alt="" class="img img-fluid">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">CONTENTSHERTA logo</h4>
+                  <span class="text-secondary">Made this logo usin Typographs for my Clinet with an animation can be seen in the Video showreel above</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./item/img/project/iconpak2imag3-01.png" alt="" class="img img-fluid">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Icons Pack</h4>
+                  <span class="text-secondary">Icons made in Illustrator in a black and red theme</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./item/img/project/earth1.png" alt="" class="img img-fluid">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Earth</h4>
+                  <span class="text-secondary">This Earth was made in Blender using CGGeek's Tutorial and looked So Photoreal</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./item/img/project/czpsule112.png" alt="" class="img img-fluid">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Happy Pill</h4>
+                  <span class="text-secondary">' Just A Pill For Happiness ' Rendered in cycles</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>  
+    <!-- >>>>>>>>>>>> End Of Project Banner <<<<<<<<<<<< -->
+    <!-- >>>>>>>>>>>> About Banner <<<<<<<<<<<< -->
+    <section class="about-area">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="about-title">
+                        <h1 class="text-uppercase title-h1">Client Say About Me</h1>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, inventore! Iure, recusandae perspiciatis quam odio beatae enim reprehenderit accusantium velit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container carousel py-lg-5">
+            <div class="owl-carousel owl-theme">
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img d-flex justify-content-center">
+                        <img src="./item/img/clients/prasad1.jpeg" alt="img1" class="img img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Prasad Tupe</h4>
+                        <p class="para">I've designed multiple graphics With Ankush's help and quiet happ to say I am never dissapointed by his work.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img d-flex justify-content-center">
+                        <img src="./item/img/clients/ankush1.jpeg" alt="img1" class="img img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Sabhya Surana / CONTENTSHETRA</h4>
+                        <p class="para">Give him a work and he'll find a way to make it possible.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img d-flex justify-content-center">
+                        <img src="./item/img/clients/prasad1.jpeg" alt="img1" class="img img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Ankush Thakur</h4>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptates quisquam vitae consequuntur nesciunt consectetur!</p>
+                    </div>
+                </div>
+                
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img d-flex justify-content-center">
+                        <img src="./item/img/clients/ankush1.jpeg" alt="img1" class="img img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Ankush Thakur</h4>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptates quisquam vitae consequuntur nesciunt consectetur!</p>
+                    </div>
+                </div>
+               
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img d-flex justify-content-center">
+                        <img src="./item/img/clients/prasad1.jpeg" alt="img1" class="img img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Ankush Thakur</h4>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptates quisquam vitae consequuntur nesciunt consectetur!</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img d-flex justify-content-center">
+                        <img src="./item/img/clients/ankush1.jpeg" alt="img1" class="img img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Ankush Thakur</h4>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptates quisquam vitae consequuntur nesciunt consectetur!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- >>>>>>>>>>>> End Of Banner <<<<<<<<<<<< -->
+    <!-- >>>>>>>>>>>> Contact Banner <<<<<<<<<<<< -->
+    <section class="bg-light" id="Contact"> 
+        <div class="container footer">
+            <h1 class="title">Contact Details</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <h3 class="text-upperclass ml-3">Ankush Thakur</h3>
+                    <p class="ml-3"><b>For design contact Ankush</b></p>
+                    <p class="ml-3"><a href="https://instagram.com/antdesigns_?igshid=1iwtxi4wxo5lk" style="text-decoration: none" target="_blank"><img src="./item/img/icons8-instagram-26.png" width="18px" height="18px" style="margin-right: 12px"><b>Ant_Design</b></a></p>
+                    <p class="ml-3"><a href = "https://instagram.com/ankush_611?igshid=18ism76u8c3dt" style="text-decoration: none" target="_blank"><img src="./item/img/icons8-instagram-26.png" width="18px" height="18px" style="margin-right: 12px"><b>Ankush Thakur</b></a></p>
+                    <h3 class="text-upperclass ml-3" style="margin-top: 30px;">Prasad Tupe</h3>
+                    <p class="ml-3"><b>For web design contact Prasad</b></p>
+                    <p class="ml-3"><a href="https://instagram.com/powertupe?igshid=roiqwa25ith" style="text-decoration: none" target="_blank"><img src="./item/img/icons8-instagram-26.png" width="18px" height="18px" style="margin-right: 12px"><b>Power_Tupe</b></a></p>
+                    <p class="ml-3"><a href="https://instagram.com/prasadtupe0405?igshid=1r3iuur6jyo8c" style="text-decoration: none" target="_blank"><img src="./item/img/icons8-instagram-26.png" width="18px" height="18px" style="margin-right: 12px"><b>Prasad Tupe</b></a></p>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h3 class="text-capitalize ml-3"> Contact Us</h3>
+                    <p class="ml-3"><i class="fa fa-map-marker"></i> Orlem Church, Shivgami Nagar, Marve Rd.</p>
+                    <p class="ml-3"><i class="fa fa-phone"></i> +91 8291124564 -- Ankush (call \ whatsapp)</p>
+                    <p class="ml-3"><i class="fa fa-envelope"></i> ankt47ankt@gmail.com</p>
+                    <p class="ml-3"><i class="fa fa-phone"></i> +91 9326415350 -- Prasad (call \ whatsapp)</p>
+                    <p class="ml-3"><i class="fa fa-envelope"></i> prasadtupe040520@gmail.com</p>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h3 class="text-capitalize ml-3">Subscribe Newsletter-- coming Soon</h3>
+                    <p class="ml-3"><input type="text" placeholder="Enter Your Email"></p>
+                    <button class="btn btn-primary ml-3">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        
+    </section>
+    <!-- >>>>>>>>>>>> End Of Contact Banner <<<<<<<<<<<< -->
+    <script src="https://unpkg.com/headroom.js"></script>
+    
+    <!-- ********** jquery js ********** -->
+    <script src="./js/jquery.3.5.1.js"></script>
+
+    <!-- ********** isotope js ********** -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+    
+    <!-- ********** bootstrap js ********** -->
+    <script src="./js/bootstrap.min.js"></script>
+    
+    <!-- ********** Owl js ********** -->
+    <script src="./vendor/owl carousel/js/owl.carousel.min.js"></script>
+    
+    <!-- ********** custom js ********** -->
+    <script src="./js/main.js"></script>
+
+    <script src="./js/smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <script>
+        function change1(){
+            document.getElementById("10").src ="./item/img/gif/Interaction_Design.gif";
+        }
+        function change2(){
+            document.getElementById("10").src = "./item/img/gif/Problem_Solving.gif";
+        }
+        function change3(){
+            document.getElementById("10").src = "./item/img/gif/Blog_post.gif";
+        }
+        function change4(){
+            document.getElementById("10").src = "./item/img/gif/prasad.gif";
+        }
+        function change5(){
+            document.getElementById("10").src = "./item/img/gif/ankush.gif"
+        }
+    </script>
+
+    <script>
+        
+        function hey(){
+        var name = prompt("Tell Me Your Name");
+        document.getElementById("enter").innerHTML = name;
+    }
+    </script>
+</body>
+</html>
