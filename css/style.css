@@ -62,7 +62,7 @@ header nav .navbar-nav .nav-item:hover{
   .main .container #position {
     position: absolute;
     z-index: 2;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
   }
